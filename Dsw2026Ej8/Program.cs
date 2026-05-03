@@ -12,7 +12,11 @@
             var producto = new Product("Auriculares");
             Console.WriteLine(p3.CompararCopias(10, producto));
 
-            
+            var p4 = new Problema4();
+            Console.WriteLine(p4.CalcularPromedio(8, 6, 10));
+            Console.WriteLine(p4.CalcularPromedio(null, null, null));
+            Console.WriteLine(p4.CalcularPromedio(5, null, 7));
+            Console.WriteLine(p4.CalcularPromedio(-1, 8, 11));
         }
     }
 }
