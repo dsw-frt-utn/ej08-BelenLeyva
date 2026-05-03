@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var p2 = new Problema2();
+            Console.WriteLine(p2.CrearResumenVenta(101, "Monitor", 3, 75000m));
+            Console.WriteLine(p2.CrearResumenVenta(102, "Mouse", 0, 1500m));
         }
     }
 }
